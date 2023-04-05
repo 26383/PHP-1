@@ -15,7 +15,7 @@ SOAL NO 1
 Kelompokkan nama-nama di bawah ini ke dalam Array. 
 Kids : "Mike", "Dustin", "Will", "Lucas", "Max", "Eleven" 
 Adults: "Hopper", "Nancy", "Joyce", "Jonathan", "Murray" */
-$Kids = ["Mike", "Dustin", "Will", "Lucas", "Max", "Eleven"];
+$Kids =["Mike", "Dustin", "Will", "Lucas", "Max", "Eleven"];
 print_r ($Kids);
 echo "<br>";
 $Adults = ["Hopper", "Nancy", "Joyce", "Jonathan", "Murray"];
@@ -30,17 +30,24 @@ echo "<br>";
 echo "Total Kids: " . count($Kids); // Berapa panjang array kids 
 echo "<br>";
 echo "<ol>";
-foreach($Kids as $name) {
-    echo "<li>$name</li>";
-} 
+echo "<li>$Kids[0]</li>";
+    echo "<li>$Kids[1]</li>";
+    echo "<li>$Kids[2]</li>";
+    echo "<li>$Kids[3]</li>";
+    echo "<li>$Kids[4]</li>";
+    echo "<li>$Kids[5]</li>";
+    
 // Lanjutkan
 echo "</ol>";
 echo "Total Adults: " . count($Adults); // Berapa panjang array adults 
 echo "<br>";
 echo "<ol>";
-foreach($Adults as $name) {
-    echo "<li>$name</li>";
-} 
+echo "<li>$Adults[0]</li>";
+    echo "<li>$Adults[1]</li>";
+    echo "<li>$Adults[2]</li>";
+    echo "<li>$Adults[3]</li>";
+    echo "<li>$Adults[4]</li>";
+
 // Lanjutkan
 /* SOAL No 3
 Susun data-data berikut ke dalam bentuk Asosiatif Array didalam Array Multidimensi
